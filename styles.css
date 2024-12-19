@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(25,25, 27);
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 32px;
+
+}
+header div {
+    width: 100%;
+    max-width: 920px;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(45, 45, 50, 0.5);
+    backdrop-filter: blur(12px);
+    padding: 0 40px;
+    border-radius: 16px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+}
+header ul {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.menu li:not(:last-child){
+    padding-right: 20px;
+}
+.links li:not(:last-child) {
+    padding-right: 10px;
+}
+header a:hover {
+    color: #a855f7;
+}
+.links img {
+    width: 20px;
+}
+.links a:hover {
+    filter: brightness(60%);
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    padding-right: 90px;
+    padding-left: 90px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    max-width: 920px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.ola {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.luiz {
+    background: linear-gradient(90deg, #a855f7, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+.estou {
+    color: #d4d4d8; /* Cinza claro */
+    font-size: 36px;
+    margin-bottom: 10px;
+
+}
+.intro a {
+    background: linear-gradient(90deg, #a855f7, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease;
+}
+.intro a:hover {
+    font-size: 38px;
+}
+.atualmente {
+    color: #d4d4d8; /* Branco */
+    font-size: 20px;
+}
+
+.contanier2 {
+    height: 80vh;
+}
+.sobre {
+    height: 100%;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.header-sobre {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-sobre h2 {
+    font-size: 52px;
+    background: linear-gradient(90deg, #a855f7, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.header-sobre p {
+    font-size: 18px;
+    color: #d4d4d8;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.text-skills {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.text-skills h3 {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 10px;
+}
+.text-sobre {
+    width: 50%;
+    padding: 0 10px;
+}
+.text-sobre p{
+    font-size: 18px;
+    color: #d4d4d8;
+}
+.text-sobre p:not(:last-child) {
+    margin-bottom: 10px;
+}
+.skills {
+    width: 50%;
+    padding: 0 10px;
+}
+.skills ul {
+    list-style: none;
+    display: flex;
+}
+.skills li {
+    font-size: 18px;
+    background: linear-gradient(90deg, #a855f7, #6366f1);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.skills li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.contanier3 {
+    height: 60vh;
+}
+.contato {
+    height: 100%;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;    
+}
+.contato h2 {
+    font-size: 52px;
+    background: linear-gradient(90deg, #a855f7, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contato p {
+    width: 100%;
+    max-width: 710px;
+    font-size: 18px;
+    color: #d4d4d8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+label {
+    font-size: 18px;
+    display: block;
+    color: white;
+    margin: 10px 0;
+}
+form {
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+.conect {
+    width: 710px;
+}
+.email {
+    font-size: 18px;
+    width: 100%;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    background-color: #d4d4d8;
+    padding: 15px 10px;
+}
+.mensagem {
+    font-size: 18px;
+    width: 100%;
+    height: 72px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #d4d4d8;
+    padding: 15px 10px;
+}
+.enviar {
+    width: 180px;
+    height: 30px;
+    color: rgb(25,25, 27);
+    background: linear-gradient(90deg, #a855f7, #6366f1);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.5s ease;
+}
+.enviar:hover {
+    color:white;
+    box-shadow: 5px 5px 20px 0px rgba(255, 255, 255, 0.5);
+}
+
+footer {
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding: 20px 0;
+}
+footer a{
+    color: #a855f7;
+}
+@media (max-width:1100px) {
+    section {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    header {
+        padding: 0 16px;
+    }
+}
+@media (max-width:950px) {
+    .conect {
+        width: 100%;
+    }
+
+}
+
+@keyframes fade {
+    from { opacity: 0; transform: translatey(20px);}
+    to { opacity: 1; transform: translatey(0);}
+}
+@keyframes faden {
+    from { opacity: 0; transform: translatey(-70px);}
+    to { opacity: 1; transform: translatey(0);}
+}
+.animacao1 {
+    animation: faden 1s ease-out;
+}
+.animacao2 {
+    animation: fade 1s ease-out;
+}
