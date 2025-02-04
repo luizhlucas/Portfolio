@@ -372,3 +372,24 @@ footer a{
         flex-direction: column;
     }
 }
+@keyframes fade {
+    from { opacity: 0; transform: translatey(20px);}
+    to { opacity: 1; transform: translatey(0);}
+}
+.animation-1 {
+    animation: fade 0.7s ease-out;
+}
+@keyframes fade-1 {
+    from { opacity: 0; transform: translatey(-70px);}
+    to { opacity: 1; transform: translatey(0);}
+}
+.animation-2 {
+    animation: fade-1 0.7s ease-out;
+}
+@keyframes fade-2 {
+    from { opacity: 0; transform: translatey(-80px);}
+    to { opacity: 1; transform: translatey(0);}
+}
+.animation-3 {
+    animation: fade-2 1s ease-out;
+}
