@@ -151,6 +151,9 @@ img {
 .github {
     padding-right: 10px;
 }
+.links-item1 {
+    padding-right: 8px;
+}
 .links a:hover {
     filter: brightness(60%);
 }
