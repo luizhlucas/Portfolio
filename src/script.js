@@ -6,10 +6,10 @@ function alternarMenu() {
 
     if (estadodoMenu%2 == 1){
         lista.classList.add("open")
-        document.querySelector('.menu-icon').src = "/src/img/close_white_36dp.svg";
+        document.querySelector('.menu-icon').src = "src/img/close_white_36dp.svg";
     }
     else {
         lista.classList.remove("open")
-        document.querySelector('.menu-icon').src = "/src/img/menu_white_36dp.svg";
+        document.querySelector('.menu-icon').src = "src/img/menu_white_36dp.svg";
     }
 }
